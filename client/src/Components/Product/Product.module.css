@@ -1,0 +1,70 @@
+/* Estilos minimalistas */
+.card-product-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffff; /* Fondo claro neutro */
+}
+
+.card-product {
+    background-color: #f4f4f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-product:hover {
+    transform: translateY(-5px);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.title-product {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #505050;
+    margin-bottom: 10px;
+}
+
+.compra-sistems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.price-product {
+    font-size: 2rem;
+    margin-left: 1.2rem;
+    color: #505050; /* Color destacado minimalista */
+    font-weight: 600;
+}
+
+.button-product {
+    background-color: #505050;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 1.2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-product:hover {
+    transition-duration: 0.9s;
+    background-color: #1558b0;
+}
+
+.button-product:focus {
+    outline: none;
+}
